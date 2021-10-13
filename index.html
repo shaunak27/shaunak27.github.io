@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="data/shaunak.jpeg">
+  <!-- <link rel="icon" type="image/png" href="data/shaunak.jpeg"> -->
 </head>
 
 <body>
@@ -30,12 +30,17 @@
               <p style="text-align:center">
                 <name>Shaunak Halbe</name>
               </p>
-              <p>I am a third year undergraduate at <a href="https://www.coep.org.in">College of Engineering Pune, India</a>, majoring in Computer Science. I have a <br>CGPA of <strong style="color:red">9.82 / 10</strong>.
-                and am currently ranked <strong style = "color:red">1st</strong> in the department.
+              <p>I am a senior year undergraduate at <a href="https://www.coep.org.in">College of Engineering Pune, India</a>, majoring in Computer Science. 
+                <!-- I have a <br>CGPA of <strong style="color:red">9.82 / 10</strong>.
+                and am currently ranked <strong style = "color:red">1st</strong> in the department. -->
               </p>
-              <p>
+              <!-- <p>
                 I am passionate about Deep Learning particularly it's applications to Computer Vision and Natural Language Processing. I have completed
                 two research internships, focused on Deep Learning at <a href="https://www.iiita.ac.in/">IIITA</a> and <a href="https://www.bennett.edu.in/">Bennett University.</a  
+              </p> -->
+              <p>
+                I've had the good fortune of working with <a href= "https://sites.google.com/view/beirami">Dr. Ahmad Beirami</a> and <a href="https://sites.usc.edu/razaviyayn/group/">Prof. Meisam Razaviyayn</a> at <a href="https://research.fb.com/">Facebook AI</a> and <a href="https://viterbischool.usc.edu/">USC</a> supported by the prestigious <a href = "https://www.iusstf.org/program/iusstf-viterbi-program">IUSSTF-Viterbi Scholarship</a>. 
+                <br><br>I've also had the wonderful opportunity to conduct research at <a href= "https://www.cmu.edu/">CMU</a> through the <a href= "https://riss.ri.cmu.edu/meet-the-2021-ri-summer-scholars/">Robotics Institute of Summer Scholars</a> (RISS) program advised by <a href="https://www.cs.cmu.edu/~jeanoh/">Dr. Jean Oh</a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:halbesa18.comp@coep.ac.in">Email</a> &nbsp/&nbsp
@@ -57,11 +62,10 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in research problems lying in the intersection of Vision and Language.
-                I love working on projects focused on developing explainable and trustworthy AI systems.
-                I am motivated by the idea of diversifying AI systems (typically <strong>Language</strong> based) to accomodate various nuances
-                observed in regional data.
-              </p>
+                My research interests lie in Machine Learning along with it's applications to Computer Vision and NLP. I have previously worked in the domains of Robustness, Generalization and Multimodality. 
+                <br><br>At Facebook AI & USC, I worked on a technique for imposing invariance using data augmentation, 
+                that is competitive with the SOTA approaches on several problem setups including domain shift, adversarial learning and VQA.
+                <br><br> At CMU, I worked on developing a modular agent for the Vision and Language Navigation in Continuous Environments (VLN-CE) setting.            </p>
             </td>
           </tr>
         </tbody></table>
@@ -82,14 +86,70 @@
                 <source src="images/nlt_after.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div> -->
+                <img src='data/toy_example.svg' width="190", height="180">
+              </div>
+              
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://www.aclweb.org/anthology/2020.challengehml-1.9/"> -->
+                <papertitle>DAIR: Data Augmented Invariant Regularization</papertitle>
+              <!-- </a> -->
+              <br>
+              Tianjian Huang, <strong>Shaunak Halbe</strong>, Chinnadhurai Sankar, Pooyan Amini, Satwik Kottur, Alborz Geramifard, Meisam Razaviyayn, Ahmad Beirami
+              <br>
+              <em>Under Review</em>  
+              <br>
+              <!-- <a href="http://nlt.csail.mit.edu/">project page</a> / -->
+              
+              <p>Coming Soon...</p>
+              <p>We present a simple regularization technique for imposing invariance, that is competitive with state-of-the-art problem-specific techniques in a variety of problem setups including domain shift, adversarial learning and VQA.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              
+              <div class="one">
+                <!-- <div class="two" id='nlt_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nlt_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='data/KG_final.png' width="190", height="180">
+              </div>
+              
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://www.aclweb.org/anthology/2020.challengehml-1.9/"> -->
+                <papertitle>Reason & Act : A Modular Approach to Explanation Driven Agents for Vision and Language Navigation</papertitle>
+              <!-- </a> -->
+              <br>
+               <strong>Shaunak Halbe</strong>, Ingrid Navarro, Jean Oh
+              <br>
+              <em>CMU Robotics Institute of Summer Scholars Working Papers Journal</em>  
+              <br>
+              <!-- <a href="http://nlt.csail.mit.edu/">project page</a> / -->
+              <a href="data/riss_paper.pdf">paper</a> /
+              <a href="https://drive.google.com/file/d/1JdU1e3EpVPRZD6yjz5s5TeW5MTXyt-HU/view?usp=sharing">poster</a> /
+              <a href="https://youtu.be/AazE5aZHgc0">talk</a>
+              <p></p>
+              <p>We present a modular agent in the form of a global and local planner. Additionally, we incorporate two novel components within the agent to encourage Cross-Modal Grounding and Visual Reasoning.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              
+              <div class="one">
+                <!-- <div class="two" id='nlt_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nlt_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
                 <img src='data/mygif.gif' width="190">
               </div>
               
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://www.aclweb.org/anthology/2020.challengehml-1.9/">
                 <papertitle>Exploring Weaknesses of VQA Models through Attribution Driven Insights</papertitle>
-              </a>
               <br>
           
               <strong>Shaunak Halbe</strong>
@@ -104,15 +164,15 @@
                Preliminary Version:
               
                <br>
-               <em>VizWiz Grand Challenge Workshop</em>
+               <em>Visual Question Answering and Dialog Workshop</em>
                <br>
                <strong>CVPR, 2020</strong>
               <br>
               <!-- <a href="http://nlt.csail.mit.edu/">project page</a> / -->
-              <a href="https://www.aclweb.org/anthology/2020.challengehml-1.9/">paper link</a> /
-              <a href="https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/101-poster.mp4">video</a>
+              <a href="https://www.aclweb.org/anthology/2020.challengehml-1.9/">paper</a> /
+              <a href="https://ivc.ischool.utexas.edu/~yz9244/VizWiz_workshop/videos/101-poster.mp4">talk</a>
               <p></p>
-              <p>Analysis of VQA models through the lens of attribution to check the robustness of these systems in  an adversarial setting.</p>
+              <p>We present an analysis of VQA models through the lens of attribution to check the robustness of these systems in  an adversarial setting.</p>
             </td>
           </tr> 
           </tbody>
