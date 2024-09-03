@@ -74,7 +74,7 @@ a:hover {
   text-decoration: none;
 }
 em {
-  color: red;
+  color: rgb(255, 145, 0);
 }
 body,
 td,
@@ -89,6 +89,7 @@ a {
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 19px;
+  color: rgb(251, 96, 0);
 }
 
 heading {
